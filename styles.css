@@ -4,12 +4,24 @@
 
 #indexLogo {
   width: 6em;
-  background-color: bisque;
 }
 
+.logoWrapper {
+  min-height: 80px;
+  display: block;
+  visibility: hidden;
+  transition: all 1s linear 0.4s;
+}
+
+.buttonWrapper {
+  min-height: 20px;
+}
+
+#indexLogoHomePage {
+  width: 6em;
+}
 
 .indexMAIN {
-  background-color: gray;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,7 +29,6 @@
 }
 
 .contentWrapper {
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
