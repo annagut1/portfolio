@@ -3,16 +3,33 @@
 }
 
 #indexLogo {
-  
   width: 6em;
+  background-color: bisque;
 }
 
 
 .indexMAIN {
+  background-color: gray;
   height: 100vh;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentWrapper {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homepageInput {
+  width: 200px;
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: white;
 }
   
 .menu li {
@@ -22,15 +39,15 @@ align-items: center;
   
   
 body {
-background-image: url("pattern.png");
-background-attachment: fixed;
-background-position: center; 
-background-color: #efece5;
-font-family: 'Roboto Mono';
-font-size: 1em;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+  background-image: url("pattern.png");
+  background-attachment: fixed;
+  background-position: center; 
+  background-color: #efece5;
+  font-family: 'Roboto Mono';
+  font-size: 1em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 ::selection {
@@ -108,6 +125,7 @@ color: #1441F5;
 display: flex;
 justify-content: center;
 align-items: center;
+max-height: 300px;
 font-size: 10rem;
 color:#e11593;
 font-family: "solvent", sans-serif;
@@ -161,8 +179,6 @@ margin-top: 2rem;
 #education {
   margin-top: 4rem;
 }
-
-
 
 h4 {
 font-size: 1.5rem;
