@@ -16,7 +16,7 @@ function updateValue(e) {
     if (e.keyCode === 13) {
         let name = homepageInput.value;
         homepageInput.style.visibility = 'hidden';
-        p.innerText = "Welcome to my site, " + name;
+        p.innerText = "Welcome to my website, " + name;
     }
 } 
 
