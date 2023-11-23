@@ -1,6 +1,19 @@
 *{
   box-sizing: border-box;
 }
+
+#indexLogo {
+  
+  width: 6em;
+}
+
+
+.indexMAIN {
+  height: 100vh;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
   
 .menu li {
   display: inline;
@@ -92,7 +105,9 @@ color: #1441F5;
 /* homepage enter button */
 
 .enter {
-margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
 font-size: 10rem;
 color:#e11593;
 font-family: "solvent", sans-serif;
