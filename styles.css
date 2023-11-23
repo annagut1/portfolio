@@ -6,6 +6,8 @@ p {
   margin-bottom: 20px;
 }
 
+
+
 #indexLogo {
   width: 6em;
 }
@@ -22,7 +24,7 @@ p {
 }
 
 #indexLogoHomePage {
-  width: 6em;
+  width: 12em;
 }
 
 .indexMAIN {
@@ -287,6 +289,7 @@ input[type="submit"] {
 ::placeholder {
   color: #FB9DDB;
   opacity: 0.5; 
+  font-size: 1.4em;
 }
 
 input, textarea, select {
@@ -298,6 +301,7 @@ input, textarea, select {
   background-color: #292929;
   min-height: 1.5rem;
   color: #efece5;
+
 }
 
 
