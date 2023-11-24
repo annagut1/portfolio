@@ -6,8 +6,7 @@ p {
   margin-bottom: 20px;
 }
 
-#seeLogoButton{
-  
+#seeLogoButton{ 
   margin: 0 auto;
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
@@ -56,14 +55,27 @@ p {
   align-items: center;
 }
 
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 70px;
+}
+
 .homepageInput {
   width: 300px;
-  height: 50px;
+  min-height: 50px;
   border-radius: 10px;
   background-color: white;
   border-color: white;
-  color: blue;
   visibility: visible;
+  color: black;
+  font-size: 24px;
+}
+
+input:placeholder-shown {
+  font-size: 10px;
 }
 
 #greetings {
@@ -82,8 +94,7 @@ p {
 .menu li {
   display: inline;
   padding: 0.3em;
-    }
-  
+}
   
 body {
   background-image: url("pattern.png");
