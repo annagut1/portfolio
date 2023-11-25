@@ -52,6 +52,36 @@ a:hover {
   color: #1441F5;
 }
 
+  
+.menu li {
+  display: inline;
+  padding: 0.3em;
+}
+  
+
+#logotype {
+  width: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**************************************************************
