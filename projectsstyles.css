@@ -1,0 +1,26 @@
+/* project pages */
+.projectText {
+    font-size: 1rem;
+  }
+  
+  .projectPicture {
+    width:35rem;
+  }
+  
+  .projectTitle {
+    margin-top: 0;
+  }
+    
+  .projectContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 3rem; 
+  }
+  
+  .textContainer {
+    width: 40rem;
+    margin-left: 2rem;
+    float: right ;
+  }

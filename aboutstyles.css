@@ -1,0 +1,31 @@
+#education {
+    margin-top: 4rem;
+  }
+  
+  
+  
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 15px; 
+    overflow: hidden; 
+    margin: auto;
+  }
+  
+  th, td {
+    border: 2px solid #e11593;
+    padding: 1em;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #e11593;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(225, 21, 147, 0.2);
+  }
+  

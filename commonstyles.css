@@ -51,3 +51,138 @@ a:hover {
 .active {
   color: #1441F5;
 }
+
+
+
+/**************************************************************
+*************************   MEDIA QUERIES  ******************** 
+***************************************************************/
+
+/*-------------------------------------------------------------
+/*                         Large desktops
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px)
+{
+.projectPicture {
+  width: 40rem;
+}
+
+}
+
+/*-------------------------------------------------------------
+/*                         Small desktops
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1250px)
+{
+  .projectPicture {
+    width: 35rem;
+  }
+
+  .projectContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem; 
+  }
+
+}
+
+/*-------------------------------------------------------------
+/*                          TABLETS  
+--------------------------------------------------------------*/ 
+
+@media screen and (max-width: 1000px)
+{
+
+  .projectContainer {
+      display: flex;
+      flex-direction: column;
+  }
+
+  #me {
+    width: 100px;
+  }
+  
+  .menu li {
+    display: inline;
+    padding: 0.3em;
+  }
+
+  .imageContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+} 
+
+
+/*-------------------------------------------------------------
+/*                          MOBILES 
+--------------------------------------------------------------*/ 
+
+@media screen and (max-width: 900px)
+{
+
+  #me {
+    width: 100px;
+  }
+  
+  .menu li {
+  display: inline;
+  padding: 0.3em;
+  font-size: 1.5rem;
+  }
+
+  .projectPicture {
+    width: 100%;
+  }
+
+  .imageContainer {
+    text-align: center;
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .pageButton {
+    font-size: 1.5rem;
+    word-spacing: 1rem;
+  }
+}
+
+/*-------------------------------------------------------------
+/*                        SMALL  MOBILES 
+--------------------------------------------------------------*/ 
+
+@media screen and (max-width: 700px)
+{
+  .menu li {
+    font-size: 1rem;
+  }
+  .pageButton {
+    font-size: 1.2rem;
+    word-spacing: 0.8rem;
+  }
+
+  h1 {
+    font-size: 24px
+  }
+
+}

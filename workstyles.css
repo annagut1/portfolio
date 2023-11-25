@@ -1,0 +1,86 @@
+/* work, project gallery */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+    
+  .gallery img, .gallery a {
+    width: 100%;
+    max-width: 30rem;
+    height: 26rem;
+    object-fit: cover;
+  }
+    
+  .gallery img:hover{
+    background:#FB9DDB;
+    padding: 0.3em;
+  }
+  
+  .moreComing{
+    font-size: 1.5rem;
+    font-family: "pf-videotext", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2rem;
+    text-align: center;
+    color:#1441F5;
+    }
+  
+  
+  /* NEXT and PREVIOUS buttons */
+  
+  
+  
+    .pageButton {
+      text-align: center;
+      color: #e11593;
+      font-size: 2rem;
+      font-family: "pf-videotext", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      word-spacing: 3rem;
+      }
+      
+    .pageButton a, .pageButton a:hover {
+      color: #e11593;
+      }
+  
+  
+      .arrow {
+        border: solid #e11593;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 10px;
+        
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+      
+      .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        
+      }
+      
+      
+      
+       .top {
+        margin-left: 6rem;
+       }
+      
+       .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+  
