@@ -1,0 +1,53 @@
+body {
+    background-image: url("/assets/pattern.png");
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: #efece5;
+    font-family: 'Roboto Mono';
+    font-size: 1em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ::selection {
+    background-color: #FB9DDB;
+    color: #000;
+  }
+
+
+  /* nav menu */
+
+.menu {
+  padding: 0;
+  text-align: center;
+  font-family: "pf-videotext", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 35px;
+  color: #000000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 1em;
+}
+
+.menu, a {
+  text-decoration: none;
+  color: #000000
+}
+
+a:hover {
+  color: #FB9DDB; 
+}
+
+.active {
+  color: #1441F5;
+}

@@ -1,0 +1,84 @@
+#seeLogoButton{ 
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #FB9DDB;
+    color: #e11593;
+    border-radius: 10px;
+    font-family: "pf-videotext", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  
+  #indexLogo {
+    width: 6em;
+  }
+
+  .logoWrapper {
+    min-height: 80px;
+    display: block;
+    visibility: hidden;
+    transition: all 1s linear 0.4s;
+  }
+  
+  .buttonWrapper {
+    min-height: 20px;
+    
+  }
+  
+  #indexLogoHomePage {
+    width: 12em;
+  }
+  
+  .indexMAIN {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+  }
+  
+  .homepageInput {
+    width: 300px;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    visibility: visible;
+    color: black;
+    font-size: 24px;
+  }
+  
+  input:placeholder-shown {
+    font-size: 10px;
+  }
+  
+  #greetings {
+    height: 24px;
+    font-size: 2rem;
+    font-family: "pf-videotext", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e11593;
+  }
+
+  #pLogo {
+    width: 6em;
+  }
