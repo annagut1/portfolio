@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
 body {
     background-image: url("/assets/pattern.png");
     background-attachment: fixed;
@@ -15,6 +20,11 @@ body {
     color: #000;
   }
 
+  ::placeholder {
+    color: #FB9DDB;
+    opacity: 0.5; 
+    font-size: 1.4em;
+  }
 
   /* nav menu */
 
@@ -69,7 +79,14 @@ a:hover {
 
 
 
-
+  footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    }
+  
 
 
 

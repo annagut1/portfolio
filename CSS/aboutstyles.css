@@ -29,3 +29,66 @@
     background-color: rgba(225, 21, 147, 0.2);
   }
   
+
+
+  * about page, skills */
+
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 1em 0.5em;
+  width: 80%;   
+}
+
+.skill {
+  border: 3px solid #e11593;
+  padding: 10px;
+  text-align: center;
+  width: 30%; 
+  min-width: 150px;
+  color: #e11593;
+  font-size: 1.2rem;
+  font-family: "pf-videotext", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 15px;
+  background-color: rgba(225, 21, 147, 0.1);
+}
+
+
+
+#me{
+  width: 40%;
+  display: block;
+  margin: auto;
+  min-width: 400px;
+}
+
+
+.aboutme {
+  margin: auto;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+  
+
+/* about */
+.anna {
+  font-family: "solvent", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#hey, #title, #who {
+  text-align: center;
+  margin-top: 2rem;
+}

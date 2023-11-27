@@ -11,3 +11,54 @@
     text-align: center;
     text-decoration: none;
   }
+
+
+
+  button[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #FB9DDB;
+    color: #e11593;
+    border-radius: 10px;
+    font-family: "pf-videotext", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  button[type="submit"]:hover {
+    scale: 1.05;
+  }
+  
+
+
+  /* Contact form */
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding: 1rem;
+  background-color: #1d1d1d;
+  border-radius: 5%;
+  color: #efece5;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.h1form {
+  margin: 1em auto;
+  text-align: center;
+}
+
+fieldset {
+  margin-top: 0.5rem;
+  padding: 1rem 0;
+  border: none;
+}
