@@ -11,12 +11,7 @@ p {
 
 
 
-  
-.menu li {
-  display: inline;
-  padding: 0.3em;
-}
-  
+
 
 
 
@@ -36,13 +31,7 @@ h2, h3, h4 {
   margin: auto;
 }
 
-#logotype {
-  width: 10rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2em;
-  }
+
 
 
 
@@ -129,7 +118,7 @@ fieldset {
   border: none;
 }
 
-input[type="submit"] {
+button[type="submit"] {
   display: block;
   width: 30%;
   margin: 0 auto;
@@ -170,19 +159,7 @@ input[type="submit"]:hover {
 
 
 
-/* social media icons */
-.icons {
-  margin-top: 2rem;
-  text-align: center; 
-}
 
-.fa {
-padding: 1rem;
-  font-size: 1.5rem;
-  width: 1em;
-  text-align: center;
-  text-decoration: none;
-}
 
 
 
