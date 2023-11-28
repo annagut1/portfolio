@@ -178,6 +178,10 @@ a:hover {
   }
 } 
 
+.peek {
+  text-align: center;
+  font-size: 12rem;
+}
 
 /*-------------------------------------------------------------
 /*                          MOBILES 
@@ -212,13 +216,18 @@ a:hover {
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 42px;
   }
 
   .pageButton {
     font-size: 1.5rem;
     word-spacing: 1rem;
   }
+}
+
+.peek {
+  text-align: center;
+  font-size: 8rem;
 }
 
 /*-------------------------------------------------------------
@@ -236,7 +245,11 @@ a:hover {
   }
 
   h1 {
-    font-size: 24px
+    font-size: 32px
   }
 
+  .peek {
+    text-align: center;
+    font-size: 6rem;
+  }
 }
