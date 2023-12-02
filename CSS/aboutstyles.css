@@ -1,39 +1,42 @@
+/* --------------CSS document for about.html--------------- */
+  
+  
+.aboutHeadline {
+text-align: center;
+width: 80%;
+margin: auto;
+margin-top: 4rem;
+margin-bottom: 2rem;
+font-size: 1.5rem;
+}
+ 
 
-  
-  
- .aboutHeadline {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+/* Education table */
+table {    
+width: 80%;
+border-collapse: collapse;
+margin-top: 20px;
+border-radius: 15px; 
+overflow: hidden; 
+margin: auto;
+}
+ 
 
- }
+/* Styling table cells */
+th, td {
+border: 2px solid #e11593;
+padding: 1em;
+text-align: left;
+}
+
+th {
+background-color: #e11593;
+color: white;
+}
   
-  table {
-    width: 80%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    border-radius: 15px; 
-    overflow: hidden; 
-    margin: auto;
-  }
-  
-  th, td {
-    border: 2px solid #e11593;
-    padding: 1em;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #e11593;
-    color: white;
-  }
-  
-  tr:nth-child(even) {
-    background-color: rgba(225, 21, 147, 0.2);
-  }
+tr:nth-child(even) {
+background-color: rgba(225, 21, 147, 0.2);
+}
   
 
 
