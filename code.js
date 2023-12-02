@@ -4,6 +4,7 @@ let homepageInput = document.querySelector('#homepageInput');
 let p = document.querySelector('#greetings');
 
 
+
 //------------------ Function to show logo ------------------//
 function showLogo() {
     logoWrapper.style.visibility = 'visible';
@@ -20,11 +21,6 @@ function updateValue(e) {
     }
 } 
 
-//-----------------------------------------------------------
-seeLogoButton.addEventListener('click', showLogo);
-homepageInput.addEventListener("keyup", updateValue);
-
-
 //----------------------------- Function for the form ------------------------------
 
 document.getElementById("submitBtn").addEventListener("click", submitFunction);
@@ -32,3 +28,9 @@ document.getElementById("submitBtn").addEventListener("click", submitFunction);
 function submitFunction() {
   alert ("Your message has been sent!");
 }
+
+//-----------------------------------------------------------
+seeLogoButton.addEventListener('click', showLogo);
+homepageInput.addEventListener("keyup", updateValue);
+
+
