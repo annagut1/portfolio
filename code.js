@@ -4,27 +4,34 @@ let homepageInput = document.querySelector('#homepageInput');
 let p = document.querySelector('#greetings');
 
 
-
 //------------------ Function to show logo ------------------//
+// Make the logo wrapper visible
+// Hide the 'See Logo' button
+
 function showLogo() {
-        // Make the logo wrapper visible
     logoWrapper.style.visibility = 'visible';
-        // Hide the 'See Logo' button
     seeLogoButton.style.display = 'none';
 }
 
 //------------------ Function to show greeting ------------------//
+// Check if the 'Enter' key is pressed
+// Get the value from the homepage input
+// Hide the homepage input
+// Update the greeting paragraph with the entered name
+
 function updateValue(e) {
-   
+    
     if (e.keyCode === 13) {
-        // Get the value from the homepage input
         let name = homepageInput.value;
-        // Hide the homepage input
         homepageInput.style.visibility = 'hidden';
-        // Update the greeting paragraph with the entered name
         p.innerText = "Welcome to my website, " + name;
     }
 } 
+
+//-----------------------------------------------------------
+// Event listeners for the 'See Logo' button and homepage input
+seeLogoButton.addEventListener('click', showLogo);
+homepageInput.addEventListener("keyup", updateValue);
 
 //----------------------------- Function for the form ------------------------------//
 
@@ -35,9 +42,5 @@ function submitFunction() {
   alert ("Your message has been sent!");
 }
 
-//-----------------------------------------------------------//
-// Event listeners for the 'See Logo' button and homepage input
-seeLogoButton.addEventListener('click', showLogo);
-homepageInput.addEventListener("keyup", updateValue);
 
 
