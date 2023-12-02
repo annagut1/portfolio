@@ -1,7 +1,7 @@
 /* --------------CSS document for index.html--------------- */
 
 
-
+/* Styling for the see logo button */
 #seeLogoButton{ 
 margin: 0 auto;
 padding-bottom: 0.5rem;
@@ -15,19 +15,20 @@ font-style: normal;
 margin-bottom: 0.5rem;
 }
   
-  
-  
+/* Styling for the appearing logo */ 
 #indexLogo {
 width: 6em;
 }
 
+/* Styling for logo wrapper */
 .logoWrapper {
 min-height: 80px;
 display: block;
 visibility: hidden;  /* The logotype is hidden until called by Javascript function*/
 transition: all 0.5s linear 0.4s;   /*  Styling for how the logo appears with help of JS*/
 }
-  
+ 
+/* Styling for the button wrapper */
 .buttonWrapper {
 min-height: 20px;
 }
@@ -36,7 +37,7 @@ min-height: 20px;
 width: 12em;
 }
  
- /* Styling for the main */
+/* Styling for the main */
 .indexMAIN {
 height: 100vh;  /* main takes up the whole screen*/
 display: flex;
@@ -47,10 +48,11 @@ align-items: center;
 .contentWrapper {
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-around; /* Distribute space around child elements vertically */
 align-items: center;
 }
-  
+ 
+/* Styling for user input wrapper */
 .inputWrapper {
 display: flex;
 flex-direction: column;
@@ -58,7 +60,8 @@ justify-content: space-around;
 align-items: center;
 min-height: 70px;
 }
-  
+
+/* Styling for the homepage input element */
 .homepageInput {
 width: 300px;
 min-height: 50px;
@@ -89,7 +92,7 @@ color: #e11593;
 width: 6em;
 }
 
-
+/* Styling for enter button container */
 .enter {
 display: flex;
 flex-direction: column;
