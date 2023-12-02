@@ -51,29 +51,29 @@ justify-content: space-around;
 align-items: center;
 }
   
-  .inputWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 70px;
-  }
+.inputWrapper {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+min-height: 70px;
+}
   
-  .homepageInput {
-    width: 300px;
-    min-height: 50px;
-    border-radius: 10px;
-    background-color: white;
-    border-color: white;
-    visibility: visible;
-    color: black;
-    font-size: 24px;
-  }
+.homepageInput {
+width: 300px;
+min-height: 50px;
+border-radius: 10px;
+background-color: white;
+border-color: white;
+visibility: visible;
+color: black;
+font-size: 24px;
+}
   
-   /* Font size for the placeholder */
-  input:placeholder-shown { 
-  font-size: 10px;
-  }
+/* Font size for the placeholder */
+input:placeholder-shown { 
+font-size: 10px;
+}
   
 /*Styling for the text shown with help of JS function */
 #greetings {
@@ -103,7 +103,7 @@ font-style: normal;
 }
 
 
- /* Centering peek inside button */
+/* Centering peek inside button */
 .peek {
 margin-top: 2px;
 margin-bottom: 20px;

@@ -1,76 +1,80 @@
-/* project pages */
+/* --------------CSS document for all project pages--------------- */
+
+
+
+
 .projectText {
-    font-size: 0.9rem;
-   
-  }
+font-size: 0.9rem;
+}
   
-  .projectPicture {
-    width:35rem;
-  }
+.projectPicture {
+width:35rem;
+}
   
-  .projectTitle {
-    margin-top: 0;
-  }
-    
-  .projectContainer {
-    display: flex;
-    justify-content: center;
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-top: 3rem; 
-  }
-  
-  .textContainer {
-    width: 40rem;
-    margin-left: 2rem;
-    float: right ;
-  }
+.projectTitle {
+margin-top: 0;
+}
+ 
+/*Project container for images and descriptions */
 
-  /* NEXT and PREVIOUS buttons */
+.projectContainer {
+display: flex;
+justify-content: center;
+margin-left: 8rem;
+margin-right: 8rem;
+margin-top: 3rem; 
+}
   
-  
-  
-  .pageButton {
-    text-align: center;
-    color: #e11593;
-    font-size: 2rem;
-    font-family: "pf-videotext", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    word-spacing: 3rem;
-    }
-    
-  .pageButton a, .pageButton a:hover {
-    color: #e11593;
-    }
+.textContainer {
+width: 40rem;
+margin-left: 2rem;
+float: right ; /* Makes the text appear on the right side*/
+
+}
+
+/* NEXT and PREVIOUS buttons */
+.pageButton {
+text-align: center;
+color: #e11593;
+font-size: 2rem;
+font-family: "pf-videotext", sans-serif;
+font-weight: 400;
+font-style: normal;
+word-spacing: 3rem; /* Makes the words apppear further away from each other */
+}
 
 
-    .arrow {
-      border: solid #e11593;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 10px;
-      
-    }
+.pageButton a, .pageButton a:hover {
+color: #e11593;
+}
+
+/* Styling for arrows */
+.arrow {
+border: solid #e11593;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 10px;
+}
+  
+
+
+.right {
+ transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+
+
+.up {
+transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+}
     
-    .right {
-      transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-    }
+       
+.top {
+margin-left: 6rem;
+}
     
-    .up {
-      transform: rotate(-135deg);
-      -webkit-transform: rotate(-135deg);
-      
-    }
-    
-    
-    
-     .top {
-      margin-left: 6rem;
-     }
-    
-     .left {
-      transform: rotate(135deg);
-      -webkit-transform: rotate(135deg);
-    }
+.left {
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+}
