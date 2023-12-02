@@ -15,7 +15,7 @@ function showLogo() {
 
 //------------------ Function to show greeting ------------------//
 function updateValue(e) {
-        // Check if the 'Enter' key is pressed
+   
     if (e.keyCode === 13) {
         // Get the value from the homepage input
         let name = homepageInput.value;
@@ -26,7 +26,7 @@ function updateValue(e) {
     }
 } 
 
-//----------------------------- Function for the form ------------------------------
+//----------------------------- Function for the form ------------------------------//
 
 document.getElementById("submitBtn").addEventListener("click", submitFunction);
 
@@ -35,7 +35,7 @@ function submitFunction() {
   alert ("Your message has been sent!");
 }
 
-//-----------------------------------------------------------
+//-----------------------------------------------------------//
 // Event listeners for the 'See Logo' button and homepage input
 seeLogoButton.addEventListener('click', showLogo);
 homepageInput.addEventListener("keyup", updateValue);

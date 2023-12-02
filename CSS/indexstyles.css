@@ -25,7 +25,7 @@ width: 6em;
 min-height: 80px;
 display: block;
 visibility: hidden;  /* The logotype is hidden until called by Javascript function*/
-transition: all 0.5s linear 0.4s;   /*  Styling for how the logo appears with help of JS*/
+transition: all 1s linear 0.4s;   /*  Styling for how the logo appears with help of JS*/
 }
  
 /* Styling for the button wrapper */
