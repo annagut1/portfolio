@@ -1,37 +1,43 @@
+/* --------------CSS document for all html files--------------- */
+
+
+
 /* social media icons */
 .icons {
-    margin-top: 2rem;
-    text-align: center; 
+margin-top: 2rem;
+text-align: center; 
   }
   
-  .fa {
-  padding: 1rem;
-    font-size: 1.5rem;
-    width: 1em;
-    text-align: center;
-    text-decoration: none;
-  }
+.fa {
+padding: 1rem;
+font-size: 1.5rem;
+ width: 1em;
+text-align: center;
+text-decoration: none;
+}
 
 
+/* Stylinhg for submit button */
 
-  button[type="submit"] {
-    display: block;
-    width: 30%;
-    margin: 0 auto;
-    padding-bottom: 0.5rem;
-    font-size: 1.5rem;
-    background-color: #FB9DDB;
-    color: #e11593;
-    border-radius: 10px;
-    font-family: "pf-videotext", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 0.5rem;
-  }
+button[type="submit"] {
+display: block;
+width: 30%;
+margin: 0 auto;
+padding-bottom: 0.5rem;
+font-size: 1.5rem;
+background-color: #FB9DDB;
+color: #e11593;
+border-radius: 10px;
+font-family: "pf-videotext", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-bottom: 0.5rem;
+}
 
-  button[type="submit"]:hover {
-    scale: 1.05;
-  }
+/* Stylinhg for submit button when hovered over */
+button[type="submit"]:hover {
+scale: 1.05; /* Making ther button bigger */
+}
   
 
 

@@ -36,7 +36,7 @@ color: white;
 }
 /* Styling for even rows in a table */
 tr:nth-child(even) {
-background-color: rgba(225, 21, 147, 0.2);
+background-color: rgba(225, 21, 147, 0.2); /* Pink background color with transparency */
 }
   
 
@@ -51,7 +51,7 @@ align-items: center;
 gap: 16px;
 margin: 0 auto;
 padding: 1em 0.5em;
-width: 80%;   
+width: 80%;   /* 80% width of the container */
 }
 
 .skill {
@@ -59,7 +59,7 @@ border: 3px solid #e11593;
 padding: 10px;
 text-align: center;
 width: 30%; 
-min-width: 150px;
+min-width: 150px; 
 color: #e11593;
 font-size: 1.2rem;
 font-family: "pf-videotext", sans-serif;
@@ -101,13 +101,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* Styling for p with ID 'hey' */
 #hey {
-  text-align: center;
-  margin-top: 2rem;
+text-align: center;
+margin-top: 2rem;
 }
-
+/* Styling for h with class 'myTitle' */
 .myTitle {
-  color: #e11593;
-  text-align: center;
-  font-size: 1.2rem;
-  }
+color: #e11593;
+text-align: center;
+font-size: 1.2rem;
+}
