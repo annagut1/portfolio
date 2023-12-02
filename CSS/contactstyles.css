@@ -6,12 +6,12 @@
 .icons {
 margin-top: 2rem;
 text-align: center; 
-  }
+}
   
 .fa {
 padding: 1rem;
 font-size: 1.5rem;
- width: 1em;
+width: 1em;
 text-align: center;
 text-decoration: none;
 }
@@ -41,45 +41,46 @@ scale: 1.05; /* Making ther button bigger */
   
 
 
-  /* Contact form */
+/* Contact form */
 form {
-  margin: 0 auto;
-  max-width: 500px;
-  min-width: 300px;
-  width: 60vw;
-  padding: 1rem;
-  background-color: #1d1d1d;
-  border-radius: 5%;
-  color: #efece5;
+margin: 0 auto;
+max-width: 500px;
+min-width: 300px;
+width: 60vw;
+padding: 1rem;
+background-color: #1d1d1d;
+border-radius: 5%; /* Making borders round */
+color: #efece5;
 }
 
 label {
-  display: block;
-  margin: 0.5rem 0;
+display: block;
+margin: 0.5rem 0;
 }
 
+/* Aligning form text in center */
 .h1form {
-  margin: 1em auto;
-  text-align: center;
+margin: 1em auto;
+text-align: center;
 }
 
+/* Stylinhg for fieldsets, removing borders and padding */
 fieldset {
-  margin-top: 0.5rem;
-  padding: 1rem 0;
-  border: none;
+margin-top: 0.5rem;
+padding: 1rem 0;
+border: none;
 }
 
 
-
+/* Common styling for form parts */
 button, input, textarea, select {
-  width: 98%;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  background-color: #292929;
-  min-height: 1.5rem;
-  color: #efece5;
-
+width: 98%;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+background-color: #292929;
+min-height: 1.5rem;
+color: #efece5;
 }
 
