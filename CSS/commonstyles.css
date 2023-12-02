@@ -1,101 +1,111 @@
+/* box-sizing property applied to all elements to include padding and border in the element's total width and height */
+
+  
 *{
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
+/* Styling for the body of the page */
 
 body {
-    background-image: url("/assets/pattern.png");
-    background-attachment: fixed;
-    background-position: center; 
-    background-color: #efece5;
-    font-family: 'Roboto Mono';
-    font-size: 1em;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+background-image: url("/assets/pattern.png");/* Background image URL */
+background-attachment: fixed; /* Background fixed in place */
+background-position: center; /* Background color as a backup incase the image does not load */
+background-color: #efece5;
+font-family: 'Roboto Mono';
+font-size: 1em;
+min-height: 100vh;
+display: flex; /* flexbox layout */
+flex-direction: column;  /* children in a column */
+}
   
-  ::selection {
-    background-color: #FB9DDB;
-    color: #000;
-  }
+/* Styling for selected text */
+::selection {
+background-color: #FB9DDB;
+color: #000;
+}
 
-  ::placeholder {
-    color: #FB9DDB;
-    opacity: 0.5; 
-    font-size: 1.4em;
-  }
+  
+/* Styling for placeholder text in input fields */
+::placeholder {
+color: #FB9DDB;
+opacity: 0.5; /* Placeholder text opacity */
+font-size: 1.4em;
+}
 
-  /* nav menu */
-
+/* Styling for the navigation menu */
 .menu {
-  padding: 0;
-  text-align: center;
-  font-family: "pf-videotext", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem;
-  line-height: 35px;
-  color: #000000;
+padding: 0;
+text-align: center;
+font-family: "pf-videotext", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+line-height: 35px; /* Line height for menu items */
+color: #000000;
 }
 
+/* Styling for navigation list */
 nav ul {
-  list-style: none;
-  padding: 0;
+list-style: none;
+padding: 0;
 }
 
+/* Styling for navigation list items */
 nav li {
-  display: inline;
-  padding: 1em;
+display: inline;
+padding: 1em;
 }
 
+/* Styling for menu links */
 .menu, a {
-  text-decoration: none;
-  color: #000000
+text-decoration: none;
+color: #000000; /* Menu link color */
 }
 
+/* Styling for menu links on hover */
 a:hover {
-  color: #FB9DDB; 
+color: #FB9DDB; 
 }
 
+/* Styling for the active menu link */
 .active {
-  color: #1441F5;
+color: #1441F5;
 }
 
   
 .menu li {
-  display: inline;
-  padding: 0.3em;
+display: inline;
+padding: 0.3em;
+}
+  
+/* Styling for the logotype element */
+#logotype {
+width: 10rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2em;
+}
+
+
+footer {
+font-size: 1rem;
+text-align: center;
+margin-top: auto;
+bottom: 0;
+width: 100%;
 }
   
 
-#logotype {
-  width: 10rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2em;
-  }
-
-
-
-  footer {
-    font-size: 1rem;
-    text-align: center;
-    margin-top: auto;
-    bottom: 0;
-    width: 100%;
-    }
-  
-
-    h1 {
-      color: #1441F5;
-      font-size: 48px;
-      font-family: "solvent", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      text-align: center;
-      }
+h1 {
+color: #1441F5;
+font-size: 48px;
+font-family: "solvent", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+}
 
 
 
