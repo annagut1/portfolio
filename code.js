@@ -25,3 +25,10 @@ seeLogoButton.addEventListener('click', showLogo);
 homepageInput.addEventListener("keyup", updateValue);
 
 
+//----------------------------- Function for the form ------------------------------
+
+document.getElementById("submitBtn").addEventListener("click", submitFunction);
+
+function submitFunction() {
+  alert ("Your message has been sent!");
+}
